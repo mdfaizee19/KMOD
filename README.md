@@ -151,7 +151,8 @@ Extend Kmod with organization-specific migration rules (coming soon).
 Switch between Gemini 2.0 and Llama 3.3 or add custom models via OpenRouter.
 
 ## ARCHITECTURE DIAGRAM
-<img width="1310" height="749" alt="diagram-export-5-2-2026-7_14_22-PM" src="https://github.com/user-attachments/assets/fdb1fbcc-7533-4efa-98b4-2fbbd5d245b6" />
+
+<img width="1304" height="562" alt="d" src="https://github.com/user-attachments/assets/d11e9c6f-7ead-47eb-a83c-ed69e99c6276" />
 
 
 
