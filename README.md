@@ -5,6 +5,7 @@
 [![npm version](https://img.shields.io/badge/npm-published-brightgreen.svg)](https://www.npmjs.com/package/kmod)
 
 Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that combines deterministic AST transformations with AI consensus for maximum safety and speed.
+<img width="1311" height="611" alt="image" src="https://github.com/user-attachments/assets/28cf73d5-e918-4403-9a7f-95f7170129a6" />
 
 ## Key Features
 
