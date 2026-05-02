@@ -150,6 +150,11 @@ Extend Kmod with organization-specific migration rules (coming soon).
 ### AI Model Selection
 Switch between Gemini 2.0 and Llama 3.3 or add custom models via OpenRouter.
 
+## ARCHITECTURE DIAGRAM
+<img width="440" height="480" alt="image" src="https://github.com/user-attachments/assets/ba3ec877-248a-4dc6-aac8-ac86c1817faa" />
+
+
+
 ## Project Structure
 
 - `bin/`: CLI entry point
