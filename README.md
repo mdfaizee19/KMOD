@@ -1,4 +1,4 @@
-# 🚀 Kmod: AI-Augmented Ethers.js Migration Engine
+# Kmod: AI-Augmented Ethers.js Migration Engine
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
@@ -6,21 +6,21 @@
 
 Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that blends deterministic AST rules with a multi-model AI consensus handshake to ensure both speed and absolute safety.
 
-## ✨ Key Features
+## Key Features
 
-- **🤖 Dual AI Handshake**: Cross-validates complex migration cases using multiple LLMs (Gemini 2.0 & Llama 3.3) to eliminate hallucinations
-- **⚡ Deterministic AST Engine**: Performs 100% safe, high-speed transformations for standard API renames
-- **🔄 Safety Checkpoints**: Automatically backs up files before modification, allowing for instant, one-command rollbacks
-- **📊 Audit-Ready Reporting**: Provides clear, color-coded diffs with "Confidence Signals" (e.g., ✔ agreed by 2/2 models)
-- **🛡️ Zero-Trust Logic**: Automatically skips ambiguous code patterns to prevent breaking changes, flagging them for human review or AI resolution
+- **Dual AI Handshake**: Cross-validates complex migration cases using multiple LLMs (Gemini 2.0 & Llama 3.3) to eliminate hallucinations
+- **Deterministic AST Engine**: Performs 100% safe, high-speed transformations for standard API renames
+- **Safety Checkpoints**: Automatically backs up files before modification, allowing for instant, one-command rollbacks
+- **Audit-Ready Reporting**: Provides clear, color-coded diffs with "Confidence Signals" (e.g., agreed by 2/2 models)
+- **Zero-Trust Logic**: Automatically skips ambiguous code patterns to prevent breaking changes, flagging them for human review or AI resolution
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - **Node.js**: v18.0.0 or higher
 - **OpenRouter API Key**: Required for the AI Consensus engine (get one at [openrouter.ai](https://openrouter.ai))
 - **Git**: For tracking changes and rollback functionality
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -47,7 +47,7 @@ OPENROUTER_KEY_1=your_openrouter_api_key
 OPENROUTER_KEY_2=your_openrouter_api_key_2
 ```
 
-## ⌨️ Command Reference
+## Command Reference
 
 | Command | Action |
 |---------|--------|
@@ -56,7 +56,7 @@ OPENROUTER_KEY_2=your_openrouter_api_key_2
 | `kmod apply .` | **Auto-Pilot**: Runs the entire migration (Rules + AI) instantly without prompts |
 | `kmod rollback .` | **Safety Net**: Instantly restores the project to its pre-migration state |
 
-## 📚 Usage Examples
+## Usage Examples
 
 ### Step 1: Preview the Changes
 
@@ -90,7 +90,7 @@ kmod apply ./my-web3-project
 
 Runs the entire migration automatically. Use only after validating with `preview` first.
 
-## 🏗️ How It Works: The Four-Phase Engine
+## How It Works: The Four-Phase Engine
 
 ### Phase 1: Scan & Detect
 Kmod identifies Ethers v5 patterns using high-speed regex and AST visitors, building a comprehensive inventory of migration targets.
@@ -104,7 +104,7 @@ Risky or "chained" calls are sent to two independent AI models. A change is only
 ### Phase 4: Validation
 Every AI suggestion is passed through a syntax validator to ensure the resulting code is parseable and bug-free.
 
-## 🛡️ Safety & Reliability
+## Safety & Reliability
 
 ### No Overwrites
 Kmod never modifies code without a verified checkpoint. All changes are backed up automatically.
@@ -117,21 +117,21 @@ Warns you if you have uncommitted changes before starting a migration, protectin
 
 ### Confidence Signals
 All changes are marked with confidence levels:
-- ✔ **High Confidence**: Agreed by deterministic rules or dual AI consensus
-- ⚠️ **Flagged**: Requires human review or manual intervention
+- **High Confidence**: Agreed by deterministic rules or dual AI consensus
+- **Flagged**: Requires human review or manual intervention
 
-## 📊 What Gets Migrated?
+## What Gets Migrated?
 
 Kmod handles the full spectrum of Ethers.js v5 → v6 changes:
 
-- ✅ API renames and namespace consolidation
-- ✅ Function signature updates
-- ✅ Constructor and factory changes
-- ✅ Event listener modifications
-- ✅ Error handling pattern upgrades
-- ✅ Type imports and exports
+- API renames and namespace consolidation
+- Function signature updates
+- Constructor and factory changes
+- Event listener modifications
+- Error handling pattern upgrades
+- Type imports and exports
 
-## 🔍 Output & Reporting
+## Output & Reporting
 
 When you run `kmod preview` or `kmod run`, you'll see:
 
@@ -141,7 +141,7 @@ When you run `kmod preview` or `kmod run`, you'll see:
 - **Flagged items** requiring manual review
 - **Rollback instructions** for instant reversal
 
-## ⚙️ Advanced Configuration
+## Advanced Configuration
 
 ### Custom Rule Sets (Future)
 Extend Kmod with organization-specific migration rules (coming soon).
@@ -149,7 +149,7 @@ Extend Kmod with organization-specific migration rules (coming soon).
 ### AI Model Selection
 Switch between Gemini 2.0 and Llama 3.3 or add custom models via OpenRouter.
 
-## 📁 Project Structure
+## Project Structure
 
 - `bin/`: CLI entry point
 - `src/`: Core logic and modules
@@ -165,7 +165,7 @@ Switch between Gemini 2.0 and Llama 3.3 or add custom models via OpenRouter.
 - `test-project/`: Demo repository for testing
 - `reports/`: Generated migration reports
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please:
 
@@ -175,17 +175,17 @@ We welcome contributions! Please:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
-## 🙋 Support & Community
+## Support & Community
 
 - **Issues**: Found a bug? [Open an issue](https://github.com/mdfaizee19/KMOD/issues)
 - **Discussions**: Have questions? [Start a discussion](https://github.com/mdfaizee19/KMOD/discussions)
 - **Documentation**: Detailed guides in the [Wiki](https://github.com/mdfaizee19/KMOD/wiki)
 
-## 🚦 Roadmap
+## Roadmap
 
 - [ ] Support for Hardhat plugin integration
 - [ ] Web UI dashboard for migration visualization
@@ -193,12 +193,12 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 - [ ] Extended language support (TypeScript-first)
 - [ ] Multi-file parallel processing
 
-## ⭐ Show Your Support
+## Show Your Support
 
 If Kmod saved you time migrating to Ethers.js v6, please give us a star! Your support helps us continue improving the tool.
 
 ---
 
-**Made with ❤️ by [mdfaizee19](https://github.com/mdfaizee19)**
+Made with love by [mdfaizee19](https://github.com/mdfaizee19)
 
-*Migrating Ethers.js v5 to v6? Let Kmod handle the heavy lifting.* 🚀
+Migrating Ethers.js v5 to v6? Let Kmod handle the heavy lifting.
