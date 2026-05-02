@@ -1,0 +1,32 @@
+{
+  "name": "kmod",
+  "version": "1.0.0",
+  "description": "AI-powered migration tool",
+  "main": "src/orchestrator/runMigration.js",
+  "bin": {
+    "kmod": "./bin/kmod.js"
+  },
+  "scripts": {
+    "start": "node bin/kmod.js",
+    "kmod": "node bin/kmod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.29.1",
+    "@babel/parser": "^7.29.2",
+    "@babel/traverse": "^7.29.0",
+    "axios": "^1.15.2",
+    "chalk": "^4.1.2",
+    "diff": "^9.0.0",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "figlet": "^1.11.0",
+    "glob": "^13.0.6",
+    "ora": "^5.4.1",
+    "readline-sync": "^1.4.10",
+    "simple-git": "^3.36.0"
+  }
+}
