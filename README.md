@@ -4,7 +4,7 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
 [![npm version](https://img.shields.io/badge/npm-published-brightgreen.svg)](https://www.npmjs.com/package/kmod)
 
-Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that combines deterministic AST transformations with AI consensus for maximum safety and speed.
+Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that com[...]
 <img width="1311" height="611" alt="image" src="https://github.com/user-attachments/assets/28cf73d5-e918-4403-9a7f-95f7170129a6" />
 
 ## Key Features
@@ -185,6 +185,7 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 - **Issues**: Found a bug? [Open an issue](https://github.com/mdfaizee19/KMOD/issues)
 - **Discussions**: Have questions? [Start a discussion](https://github.com/mdfaizee19/KMOD/discussions)
 - **Documentation**: Detailed guides in the [Wiki](https://github.com/mdfaizee19/KMOD/wiki)
+- **Demo Video**: Watch the tool in action - [YouTube Demo](https://youtu.be/aiQO6gv-UUg?si=e4M0urTMTMX6c3wg)
 
 ## Roadmap
 
