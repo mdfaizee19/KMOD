@@ -4,7 +4,7 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
 [![npm version](https://img.shields.io/badge/npm-published-brightgreen.svg)](https://www.npmjs.com/package/kmod)
 
-Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that blends deterministic AST rules with a multi-model AI consensus handshake to ensure both speed and absolute safety.
+Kmod is a professional-grade CLI tool designed to automate the complex migration of Ethereum-based codebases from **Ethers.js v5 to v6**. It utilizes a unique **Hybrid Transformation Engine** that combines deterministic AST transformations with AI consensus for maximum safety and speed.
 
 ## Key Features
 
@@ -199,6 +199,6 @@ If Kmod saved you time migrating to Ethers.js v6, please give us a star! Your su
 
 ---
 
-Made with love by [mdfaizee19](https://github.com/mdfaizee19)
+Made with dedication by [mdfaizee19](https://github.com/mdfaizee19)
 
 Migrating Ethers.js v5 to v6? Let Kmod handle the heavy lifting.
