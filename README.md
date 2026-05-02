@@ -1,4 +1,4 @@
-# Kmod: AI-Augmented Ethers.js Migration Engine
+# Kmod: AI-Augmented Ethers.js Migration Engine Boring AI Hackathon
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
